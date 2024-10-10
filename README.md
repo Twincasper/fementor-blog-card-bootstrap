@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/blog-preview-card-primarily-using-flexbox-and-css-variables-6W1yNERPbz)
+- Live Site URL: [Github pages deployment](https://twincasper.github.io/fementor-blog-preview-card/)
 
 ## My process
 
@@ -74,7 +74,7 @@ I want to challenge myself to start using grid instead of flex for everything, j
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Twincasper)
+- Frontend Mentor - [@Twincasper](https://www.frontendmentor.io/profile/Twincasper)
 
 
 ## Acknowledgments
