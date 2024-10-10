@@ -65,7 +65,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-  font-family: 'Figtree';
+  font-family: 'Figtree', sans-serif;
   background-color: var(--color-yellow);
   min-height: 100vh;
   display: flex;
@@ -73,99 +73,21 @@ body {
   align-items: center;
   margin: 0;
 }
-
-#card {
-  display: flex;
+.card {
   width: 24rem;
-  padding: var(--spacing-200);
-  flex-direction: column;
-  align-items: flex-start;
-  gap: var(--spacing-200);
-  border-radius: 1.25rem;
   border: 1px solid var(--color-gray-950);
-  background: var(--color-white);
   box-shadow: 8px 8px 0px 0px #000;
 }
-
-svg {
-  border-radius: 0.625rem;
-  margin: 0 auto;
+.card-img-top {
+  border-top-left-radius: calc(0.375rem - 1px);
+  border-top-right-radius: calc(0.375rem - 1px);
 }
-
-#learning {
-  display: flex;
-  padding: var(--spacing-50, 0.25rem) var(--spacing-150);
-  justify-content: center;
-  align-items: center;
-  gap: var(--spacing-100, 0.5rem);
-  border-radius: var(--spacing-50, 0.25rem);
-  background: var(--color-yellow, #F4D04E);
-  font-family: Figtree;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 150%;
-  margin-left: var(--spacing-100);
+.badge-learning {
+  background-color: var(--color-yellow);
+  color: var(--color-gray-950);
 }
-
-#subtitle {
-  color: var(--color-gray-950, #111);
-  font-family: Figtree;
-  font-size: var(--font-size-text-preset-3);
-  font-style: normal;
-  font-weight: 500;
-  line-height: 150%;
-  margin-left: var(--spacing-100);
+.card-title:hover {
+  color: var(--color-yellow);
 }
-
-#heading {
-  color: var(--color-gray-950, #111);
-  font-family: Figtree;
-  font-size: 1.5rem;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 150%;
-  margin-left: var(--spacing-100);
-}
-
-#heading:hover {
-  color: var(--color-yellow, #F4D04E);
-  font-family: Figtree;
-  font-size: 1.5rem;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 150%;
-  margin-left: var(--spacing-100);
-}
-
-#description {
-  color: var(--color-gray-500);
-  font-family: Figtree;
-  font-size: 1rem;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 150%;
-  margin-left: var(--spacing-100);
-}
-
-
-#profile {
-  display: flex;
-  align-items: center;
-  gap: var(--spacing-150);
-  font-family: Figtree;
-  font-weight: 800;
-  font-size: 0.875rem;
-  line-height: 150%;
-  margin-left: var(--spacing-100);
-}
-
-#profile img {
-  width: 2rem;
-  height: 2rem;
-  border-radius: 2rem;
-}
-
-.attribution {
-  margin-left: var(--spacing-100);
-}
-
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
