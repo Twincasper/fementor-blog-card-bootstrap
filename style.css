@@ -97,3 +97,11 @@ body {
   font-size: 0.875rem;
 }
 
+.card-body .card-title {
+  font-weight: 800;
+}
+
+#card .card-body {
+  padding-left: 0.5rem;
+}
+
